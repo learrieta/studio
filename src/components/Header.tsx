@@ -33,22 +33,22 @@ export function Header() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-6">
-            <nav className="flex items-center gap-6 text-sm font-medium">
+            <nav className="flex items-center gap-6 text-sm font-semibold">
              <a
                 href="#services"
-                className="transition-colors hover:text-primary"
+                className="transition-colors hover:text-primary text-foreground"
               >
                 Services
               </a>
               <a
                 href="#gallery"
-                className="transition-colors hover:text-primary"
+                className="transition-colors hover:text-primary text-foreground"
               >
                 Gallery
               </a>
               <a
                 href="#testimonials"
-                className="transition-colors hover:text-primary"
+                className="transition-colors hover:text-primary text-foreground"
               >
                 Testimonials
               </a>
@@ -71,10 +71,10 @@ export function Header() {
                     <div className="mb-8">
                       <Logo />
                     </div>
-                    <nav className="flex flex-col gap-y-6 text-lg">
-                        <a href="#services" className="transition-colors hover:text-primary">Services</a>
-                        <a href="#gallery" className="transition-colors hover:text-primary">Gallery</a>
-                        <a href="#testimonials" className="transition-colors hover:text-primary">Testimonials</a>
+                    <nav className="flex flex-col gap-y-6 text-lg font-semibold">
+                        <a href="#services" className="transition-colors hover:text-primary text-foreground">Services</a>
+                        <a href="#gallery" className="transition-colors hover:text-primary text-foreground">Gallery</a>
+                        <a href="#testimonials" className="transition-colors hover:text-primary text-foreground">Testimonials</a>
                     </nav>
                     <Button asChild className="mt-8 w-full bg-accent hover:bg-accent/90 text-accent-foreground">
                         <a href="#quote">Get a Quote</a>
