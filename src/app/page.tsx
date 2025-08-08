@@ -25,7 +25,7 @@ export default function Home() {
                       At RenovateRight, we blend timeless craftsmanship with modern design to transform your living spaces.
                   </p>
                   <div className="mt-8">
-                      <Button size="lg" asChild style={{ backgroundColor: '#131b26' }} className="font-semibold text-white hover:bg-gray-800 rounded-full">
+                      <Button size="lg" asChild className="font-semibold bg-white text-[#131b26] hover:bg-gray-200 rounded-full">
                           <a href="#quote">Request a Free Quote</a>
                       </Button>
                   </div>
