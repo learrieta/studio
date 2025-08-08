@@ -15,27 +15,31 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center text-center text-white bg-gray-800">
-          <Image
-            src="https://placehold.co/1800x1000.png"
-            alt="Modern kitchen remodel"
-            layout="fill"
-            objectFit="cover"
-            className="absolute z-0 opacity-40"
-            data-ai-hint="modern kitchen"
-          />
-          <div className="relative z-10 p-6 max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-headline font-bold !text-white tracking-tight leading-tight [text-shadow:_2px_2px_4px_rgb(0_0_0_/_40%)]">
-              Crafting Your Dream Home, One Room at a Time
-            </h1>
-            <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto !text-white/90 [text-shadow:_1px_1px_2px_rgb(0_0_0_/_40%)]">
-              At RenovateRight, we blend timeless craftsmanship with modern design to transform your living spaces.
-            </p>
-            <div className="mt-8 flex justify-center">
-              <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold">
-                <a href="#quote">Request a Free Quote</a>
-              </Button>
-            </div>
+        <section className="grid grid-cols-1 md:grid-cols-2 min-h-[70vh]">
+          <div className="flex flex-col justify-center p-8 md:p-12" style={{ backgroundColor: '#131b26' }}>
+              <div className="max-w-md">
+                  <h1 className="text-4xl md:text-6xl font-headline font-bold text-white tracking-tight leading-tight">
+                      Transform Your Home with Lima's Top Remodeler
+                  </h1>
+                  <p className="mt-6 text-lg text-white/80">
+                      At RenovateRight, we blend timeless craftsmanship with modern design to transform your living spaces.
+                  </p>
+                  <div className="mt-8">
+                      <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold">
+                          <a href="#quote">Request a Free Quote</a>
+                      </Button>
+                  </div>
+              </div>
+          </div>
+          <div className="relative min-h-[40vh] md:min-h-0">
+              <Image
+                  src="https://placehold.co/800x1000.png"
+                  alt="Remodeled kitchen"
+                  layout="fill"
+                  objectFit="cover"
+                  data-ai-hint="modern kitchen"
+                  className="w-full h-full"
+              />
           </div>
         </section>
 
