@@ -18,14 +18,14 @@ export default function Home() {
         <section className="grid grid-cols-1 md:grid-cols-2 min-h-[70vh]">
           <div className="flex flex-col justify-center p-8 md:p-12" style={{ backgroundColor: '#131b26' }}>
               <div className="max-w-md">
-                  <h1 className="text-3xl font-headline font-semibold text-white tracking-tight leading-tight">
+                  <h1 className="text-2xl font-semibold text-white tracking-tight leading-tight">
                       Transform Your Home with Lima's Top Remodeler
                   </h1>
                   <p className="mt-6 text-lg text-white/80">
                       At RenovateRight, we blend timeless craftsmanship with modern design to transform your living spaces.
                   </p>
                   <div className="mt-8">
-                      <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold">
+                      <Button size="lg" asChild style={{ backgroundColor: '#131b26' }} className="font-semibold text-white hover:bg-gray-800 rounded-full">
                           <a href="#quote">Request a Free Quote</a>
                       </Button>
                   </div>
