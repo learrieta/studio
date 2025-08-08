@@ -36,24 +36,24 @@ export function Header() {
             <nav className="flex items-center gap-6 text-sm font-semibold">
              <a
                 href="#services"
-                className="transition-colors hover:text-primary text-foreground"
+                className="transition-colors hover:text-primary text-[#131b26]"
               >
                 Services
               </a>
               <a
                 href="#gallery"
-                className="transition-colors hover:text-primary text-foreground"
+                className="transition-colors hover:text-primary text-[#131b26]"
               >
                 Gallery
               </a>
               <a
                 href="#testimonials"
-                className="transition-colors hover:text-primary text-foreground"
+                className="transition-colors hover:text-primary text-[#131b26]"
               >
                 Testimonials
               </a>
             </nav>
-            <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground">
+            <Button asChild style={{ backgroundColor: '#131b26' }} className="font-semibold text-white hover:bg-gray-800">
                 <a href="#quote">Get a Quote</a>
             </Button>
         </div>
@@ -72,11 +72,11 @@ export function Header() {
                       <Logo />
                     </div>
                     <nav className="flex flex-col gap-y-6 text-lg font-semibold">
-                        <a href="#services" className="transition-colors hover:text-primary text-foreground">Services</a>
-                        <a href="#gallery" className="transition-colors hover:text-primary text-foreground">Gallery</a>
-                        <a href="#testimonials" className="transition-colors hover:text-primary text-foreground">Testimonials</a>
+                        <a href="#services" className="transition-colors hover:text-primary text-[#131b26]">Services</a>
+                        <a href="#gallery" className="transition-colors hover:text-primary text-[#131b26]">Gallery</a>
+                        <a href="#testimonials" className="transition-colors hover:text-primary text-[#131b26]">Testimonials</a>
                     </nav>
-                    <Button asChild className="mt-8 w-full bg-accent hover:bg-accent/90 text-accent-foreground">
+                    <Button asChild style={{ backgroundColor: '#131b26' }} className="mt-8 w-full font-semibold text-white hover:bg-gray-800">
                         <a href="#quote">Get a Quote</a>
                     </Button>
                 </SheetContent>
