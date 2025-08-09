@@ -18,10 +18,10 @@ export default function Home() {
         <section className="grid grid-cols-1 md:grid-cols-2 min-h-[70vh]">
           <div className="flex flex-col justify-center p-8 md:p-12" style={{ backgroundColor: '#131b26' }}>
               <div className="max-w-md">
-                  <h1 className="text-2xl font-semibold text-white tracking-tight leading-tight">
+                  <h1 className="text-3xl md:text-4xl font-semibold text-white tracking-tight leading-tight">
                       Transform Your Home with Lima's Top Remodeler
                   </h1>
-                  <p className="mt-6 text-lg text-white/80">
+                  <p className="mt-6 text-base md:text-lg text-white/80">
                       At RenovateRight, we blend timeless craftsmanship with modern design to transform your living spaces.
                   </p>
                   <div className="mt-8">
@@ -31,7 +31,7 @@ export default function Home() {
                   </div>
               </div>
           </div>
-          <div className="relative min-h-[40vh] md:min-h-0">
+          <div className="relative min-h-[50vh] md:min-h-0">
               <Image
                   src="https://placehold.co/800x1000.png"
                   alt="Remodeled kitchen"
@@ -44,11 +44,11 @@ export default function Home() {
         </section>
 
         {/* Services Section */}
-        <section id="services" className="py-20 md:py-28 bg-background">
+        <section id="services" className="py-16 md:py-28 bg-background">
           <div className="container mx-auto px-6">
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-headline font-bold text-primary">Our Services</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+              <h2 className="text-3xl md:text-5xl font-headline font-bold text-primary">Our Services</h2>
+              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-muted-foreground">
                 From single rooms to whole-house transformations, we offer a full range of remodeling services.
               </p>
             </div>
@@ -97,11 +97,11 @@ export default function Home() {
         </section>
 
         {/* Dream Home Generator */}
-        <section id="dream-tool" className="py-20 md:py-28 bg-secondary/50">
+        <section id="dream-tool" className="py-16 md:py-28 bg-secondary/50">
           <div className="container mx-auto px-6">
              <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-headline font-bold text-primary">Dream Bigger</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+              <h2 className="text-3xl md:text-5xl font-headline font-bold text-primary">Dream Bigger</h2>
+              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-muted-foreground">
                 Not sure where to start? Use our AI tool to turn your vague ideas into an inspiring project description.
               </p>
             </div>
@@ -110,11 +110,11 @@ export default function Home() {
         </section>
         
         {/* Project Gallery */}
-        <section id="gallery" className="py-20 md:py-28 bg-background">
+        <section id="gallery" className="py-16 md:py-28 bg-background">
           <div className="container mx-auto px-6">
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-headline font-bold text-primary">Our Work</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+              <h2 className="text-3xl md:text-5xl font-headline font-bold text-primary">Our Work</h2>
+              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-muted-foreground">
                 See the quality and craftsmanship for yourself. Here are a few of our completed projects.
               </p>
             </div>
@@ -123,11 +123,11 @@ export default function Home() {
         </section>
 
         {/* Testimonials */}
-        <section id="testimonials" className="py-20 md:py-28 bg-secondary/50">
+        <section id="testimonials" className="py-16 md:py-28 bg-secondary/50">
           <div className="container mx-auto px-6">
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-headline font-bold text-primary">What Our Clients Say</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+              <h2 className="text-3xl md:text-5xl font-headline font-bold text-primary">What Our Clients Say</h2>
+              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-muted-foreground">
                 We're proud of the relationships we build and the homes we transform.
               </p>
             </div>
@@ -136,11 +136,11 @@ export default function Home() {
         </section>
         
         {/* Quote Form */}
-        <section id="quote" className="py-20 md:py-28 bg-background">
+        <section id="quote" className="py-16 md:py-28 bg-background">
           <div className="container mx-auto px-6">
              <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-headline font-bold text-primary">Ready to Start Your Project?</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+              <h2 className="text-3xl md:text-5xl font-headline font-bold text-primary">Ready to Start Your Project?</h2>
+              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-muted-foreground">
                 Fill out the form below to get a free, no-obligation quote from our team of experts.
               </p>
             </div>

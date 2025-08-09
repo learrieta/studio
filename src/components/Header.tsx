@@ -5,11 +5,11 @@ import Image from "next/image";
 
 const Logo = () => (
   <a href="#" className="flex items-center">
-    <Image 
+    <Image
       src="/logo.jpg"
       alt="RenovateRight Logo"
-      width={180}
-      height={50}
+      width={150}
+      height={40}
     />
   </a>
 );
