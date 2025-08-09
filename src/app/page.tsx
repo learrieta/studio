@@ -51,6 +51,28 @@ export default function Home() {
                 From single rooms to whole-house transformations, we offer a full range of remodeling services.
               </p>
             </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+              <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="https://placehold.co/600x450.png"
+                  alt="A team of professional remodelers planning a project."
+                  layout="fill"
+                  objectFit="cover"
+                  data-ai-hint="construction team blueprint"
+                />
+              </div>
+              <div className="prose prose-lg max-w-none">
+                <h3 className="text-3xl font-headline font-bold text-primary mb-4">Our Commitment to Excellence</h3>
+                <p className="text-muted-foreground mb-4">
+                  At RenovateRight, we believe that every project is a partnership. We work closely with you from concept to completion, ensuring your vision is realized with the highest standards of quality and craftsmanship. Our dedicated team manages every detail, so you can enjoy a seamless and stress-free renovation experience.
+                </p>
+                <p className="text-muted-foreground">
+                  We are committed to transparent communication, innovative solutions, and delivering a final product that not only meets but exceeds your expectations. Trust us to build your dream.
+                </p>
+              </div>
+            </div>
+
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="text-center group hover:shadow-xl transition-shadow duration-300 border-2 border-transparent hover:border-primary/50">
                 <CardHeader>
