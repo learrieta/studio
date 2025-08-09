@@ -21,11 +21,11 @@ export default function Home() {
                   <h1 className="text-3xl md:text-4xl font-semibold text-white tracking-tight leading-tight">
                       Transform Your Home with Lima's Top Remodeler
                   </h1>
-                  <p className="mt-6 text-base md:text-lg text-white/80">
+                  <p className="mt-6 text-2xl text-white/80">
                       At RenovateRight, we blend timeless craftsmanship with modern design to transform your living spaces.
                   </p>
                   <div className="mt-8">
-                      <Button size="lg" asChild className="font-semibold bg-white text-[#131b26] hover:bg-gray-200 rounded-full">
+                      <Button size="lg" asChild className="font-semibold bg-white text-[#131b26] hover:bg-gray-200 rounded-full transition-transform hover:scale-105 duration-200">
                           <a href="#quote">Request a Free Quote</a>
                       </Button>
                   </div>
