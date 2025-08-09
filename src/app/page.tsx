@@ -37,6 +37,7 @@ export default function Home() {
                   alt="Beautifully remodeled home interior"
                   layout="fill"
                   objectFit="cover"
+                  priority
               />
           </div>
         </section>
