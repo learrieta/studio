@@ -15,7 +15,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="grid grid-cols-1 md:grid-cols-2 min-h-[calc(100vh-4rem)]">
+        <section className="grid grid-cols-1 md:grid-cols-2 min-h-[calc(100vh-5rem)]">
           <div className="flex flex-col justify-center p-8 md:p-12" style={{ backgroundColor: '#131b26' }}>
               <div className="max-w-md">
                   <h1 className="text-2xl md:text-4xl font-semibold text-white tracking-tight" style={{ lineHeight: '1.5' }}>

@@ -7,8 +7,8 @@ const Logo = () => (
   <a href="#" className="flex items-center">
     <Image
       src="/logo.jpg"
-      alt="RenovateRight Logo"
-      width={150}
+      alt="Soluciones Integrales Logo"
+      width={40}
       height={40}
     />
   </a>
@@ -17,7 +17,7 @@ const Logo = () => (
 export function Header() {
   return (
     <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
+      <div className="container flex h-20 items-center justify-between">
         <Logo />
 
         {/* Desktop Navigation */}
