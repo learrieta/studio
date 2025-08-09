@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import Image from "next/image";
 
@@ -25,24 +25,24 @@ export function Header() {
             <nav className="flex items-center gap-6 text-sm font-semibold">
              <a
                 href="#services"
-                className="text-[#131b26] relative group py-2"
+                className="text-foreground relative group py-3"
               >
                 <span>Services</span>
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#131b26] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#gallery"
-                className="text-[#131b26] relative group py-2"
+                className="text-foreground relative group py-3"
               >
                 <span>Gallery</span>
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#131b26] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#testimonials"
-                className="text-[#131b26] relative group py-2"
+                className="text-foreground relative group py-3"
               >
                 <span>Testimonials</span>
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#131b26] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
             </nav>
             <Button asChild style={{ backgroundColor: '#131b26' }} className="font-semibold text-white hover:bg-gray-800 rounded-full transition-transform hover:scale-105 duration-200">
@@ -60,13 +60,14 @@ export function Header() {
                     </Button>
                 </SheetTrigger>
                 <SheetContent className="w-full max-w-xs p-6" side="right">
+                    <SheetTitle className="sr-only">Menu</SheetTitle>
                     <div className="mb-8">
                       <Logo />
                     </div>
                     <nav className="flex flex-col gap-y-6 text-lg font-semibold">
-                        <a href="#services" className="text-[#131b26] border-b-2 border-transparent hover:border-[#131b26] transition-all duration-300 w-fit">Services</a>
-                        <a href="#gallery" className="text-[#131b26] border-b-2 border-transparent hover:border-[#131b26] transition-all duration-300 w-fit">Gallery</a>
-                        <a href="#testimonials" className="text-[#131b26] border-b-2 border-transparent hover:border-[#131b26] transition-all duration-300 w-fit">Testimonials</a>
+                        <a href="#services" className="text-foreground border-b-2 border-transparent hover:border-foreground transition-all duration-300 w-fit">Services</a>
+                        <a href="#gallery" className="text-foreground border-b-2 border-transparent hover:border-foreground transition-all duration-300 w-fit">Gallery</a>
+                        <a href="#testimonials" className="text-foreground border-b-2 border-transparent hover:border-foreground transition-all duration-300 w-fit">Testimonials</a>
                     </nav>
                     <Button asChild style={{ backgroundColor: '#131b26' }} className="mt-8 w-full font-semibold text-white hover:bg-gray-800 rounded-full transition-transform hover:scale-105 duration-200">
                         <a href="#quote">Get a Quote</a>
