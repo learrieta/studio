@@ -8,7 +8,7 @@ const Logo = () => (
     <Image
       src="/logo.jpg"
       alt="Soluciones Integrales Logo"
-      width={60}
+      width={100}
       height={40}
     />
   </a>

@@ -22,7 +22,7 @@ export default function Home() {
                       Transform Your Home with Lima's Top Remodeler
                   </h1>
                   <p className="mt-6 text-[1rem] text-white/80 leading-relaxed">
-                      At RenovateRight, we blend timeless craftsmanship with modern design to transform your living spaces.
+                      At Soluciones Integrales
                   </p>
                   <div className="mt-8">
                       <Button size="lg" asChild className="font-semibold bg-white text-[#131b26] hover:bg-gray-200 rounded-full transition-transform hover:scale-105 duration-200">
@@ -33,7 +33,7 @@ export default function Home() {
           </div>
           <div className="relative min-h-[50vh] md:min-h-0">
               <Image
-                  src="/hero_img.jpg"
+                  src="/hero_img.jpeg"
                   alt="Beautifully remodeled home interior"
                   layout="fill"
                   objectFit="cover"
