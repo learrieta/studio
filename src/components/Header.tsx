@@ -42,7 +42,7 @@ export function Header() {
                 Testimonials
               </a>
             </nav>
-            <Button asChild style={{ backgroundColor: '#131b26' }} className="font-semibold text-white hover:bg-gray-800 rounded-full">
+            <Button asChild style={{ backgroundColor: '#131b26' }} className="font-semibold text-white hover:bg-gray-800 rounded-full transition-transform hover:scale-105 duration-200">
                 <a href="#quote">Get a Quote</a>
             </Button>
         </div>
@@ -65,7 +65,7 @@ export function Header() {
                         <a href="#gallery" className="transition-colors hover:text-primary text-[#131b26]">Gallery</a>
                         <a href="#testimonials" className="transition-colors hover:text-primary text-[#131b26]">Testimonials</a>
                     </nav>
-                    <Button asChild style={{ backgroundColor: '#131b26' }} className="mt-8 w-full font-semibold text-white hover:bg-gray-800 rounded-full">
+                    <Button asChild style={{ backgroundColor: '#131b26' }} className="mt-8 w-full font-semibold text-white hover:bg-gray-800 rounded-full transition-transform hover:scale-105 duration-200">
                         <a href="#quote">Get a Quote</a>
                     </Button>
                 </SheetContent>
