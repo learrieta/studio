@@ -1,16 +1,17 @@
-import Image from "next/image";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
+import Image from "next/image";
 
 const Logo = () => (
   <a href="#" className="flex items-center">
     <Image 
-      src="https://placehold.co/180x50.png"
-      alt="RenovateRight Logo"
+      src="/logo.jpg"
+      alt="Logo"
       width={180}
       height={50}
       data-ai-hint="logo"
+      className="object-contain"
     />
   </a>
 );
