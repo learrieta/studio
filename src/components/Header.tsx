@@ -25,19 +25,19 @@ export function Header() {
             <nav className="flex items-center gap-6 text-sm font-semibold">
              <a
                 href="#services"
-                className="transition-colors hover:text-primary text-[#131b26]"
+                className="transition-colors hover:text-primary text-[#131b26] hover:underline underline-offset-4"
               >
                 Services
               </a>
               <a
                 href="#gallery"
-                className="transition-colors hover:text-primary text-[#131b26]"
+                className="transition-colors hover:text-primary text-[#131b26] hover:underline underline-offset-4"
               >
                 Gallery
               </a>
               <a
                 href="#testimonials"
-                className="transition-colors hover:text-primary text-[#131b26]"
+                className="transition-colors hover:text-primary text-[#131b26] hover:underline underline-offset-4"
               >
                 Testimonials
               </a>
@@ -61,9 +61,9 @@ export function Header() {
                       <Logo />
                     </div>
                     <nav className="flex flex-col gap-y-6 text-lg font-semibold">
-                        <a href="#services" className="transition-colors hover:text-primary text-[#131b26]">Services</a>
-                        <a href="#gallery" className="transition-colors hover:text-primary text-[#131b26]">Gallery</a>
-                        <a href="#testimonials" className="transition-colors hover:text-primary text-[#131b26]">Testimonials</a>
+                        <a href="#services" className="transition-colors hover:text-primary text-[#131b26] hover:underline underline-offset-4">Services</a>
+                        <a href="#gallery" className="transition-colors hover:text-primary text-[#131b26] hover:underline underline-offset-4">Gallery</a>
+                        <a href="#testimonials" className="transition-colors hover:text-primary text-[#131b26] hover:underline underline-offset-4">Testimonials</a>
                     </nav>
                     <Button asChild style={{ backgroundColor: '#131b26' }} className="mt-8 w-full font-semibold text-white hover:bg-gray-800 rounded-full transition-transform hover:scale-105 duration-200">
                         <a href="#quote">Get a Quote</a>
