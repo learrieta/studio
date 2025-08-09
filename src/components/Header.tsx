@@ -10,7 +10,6 @@ const Logo = () => (
       alt="RenovateRight Logo"
       width={180}
       height={50}
-      className="object-contain"
     />
   </a>
 );
