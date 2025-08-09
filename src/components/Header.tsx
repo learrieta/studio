@@ -7,10 +7,9 @@ const Logo = () => (
   <a href="#" className="flex items-center">
     <Image 
       src="/logo.jpg"
-      alt="Logo"
+      alt="RenovateRight Logo"
       width={180}
       height={50}
-      data-ai-hint="logo"
       className="object-contain"
     />
   </a>
