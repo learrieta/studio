@@ -54,7 +54,7 @@ export function Header() {
         <div className="md:hidden">
             <Sheet>
                 <SheetTrigger asChild>
-                    <Button variant="ghost" size="icon" className="hover:bg-transparent hover:text-foreground">
+                    <Button variant="ghost" size="icon" className="hover:bg-foreground hover:text-background">
                         <Menu className="h-6 w-6" />
                         <span className="sr-only">Toggle menu</span>
                     </Button>
