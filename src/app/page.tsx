@@ -18,7 +18,7 @@ export default function Home() {
         <section className="grid grid-cols-1 md:grid-cols-2 min-h-[calc(100vh-5rem)]">
           <div className="flex flex-col justify-center p-8 md:p-12" style={{ backgroundColor: '#131b26' }}>
               <div className="max-w-md">
-                  <h1 className="text-2xl md:text-4xl font-semibold text-white tracking-tight" style={{ lineHeight: '1.5' }}>
+                  <h1 className="text-2xl md:text-4xl font-semibold text-white tracking-tight" style={{ lineHeight: '1.5rem' }}>
                       Transform Your Home with Lima's Top Remodeler
                   </h1>
                   <p className="mt-6 text-[1rem] text-white/80 leading-relaxed">
@@ -33,8 +33,8 @@ export default function Home() {
           </div>
           <div className="relative min-h-[50vh] md:min-h-0">
               <Image
-                  src="/logo.jpg"
-                  alt="Remodeled kitchen"
+                  src="/hero_img.jpg"
+                  alt="Beautifully remodeled home interior"
                   layout="fill"
                   objectFit="cover"
               />
