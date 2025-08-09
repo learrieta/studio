@@ -18,7 +18,7 @@ export default function Home() {
         <section className="grid grid-cols-1 md:grid-cols-2 min-h-[70vh]">
           <div className="flex flex-col justify-center p-8 md:p-12" style={{ backgroundColor: '#131b26' }}>
               <div className="max-w-md">
-                  <h1 className="text-3xl md:text-4xl font-semibold text-white tracking-tight leading-snug">
+                  <h1 className="text-2xl md:text-4xl font-semibold text-white tracking-tight leading-snug">
                       Transform Your Home with Lima's Top Remodeler
                   </h1>
                   <p className="mt-6 text-[1.2rem] text-white/80 leading-relaxed">
