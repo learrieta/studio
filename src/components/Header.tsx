@@ -25,21 +25,24 @@ export function Header() {
             <nav className="flex items-center gap-6 text-sm font-semibold">
              <a
                 href="#services"
-                className="text-[#131b26] border-b-2 border-transparent hover:border-[#131b26] transition-all duration-300"
+                className="text-[#131b26] relative group"
               >
-                Services
+                <span>Services</span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#131b26] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#gallery"
-                className="text-[#131b26] border-b-2 border-transparent hover:border-[#131b26] transition-all duration-300"
+                className="text-[#131b26] relative group"
               >
-                Gallery
+                <span>Gallery</span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#131b26] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#testimonials"
-                className="text-[#131b26] border-b-2 border-transparent hover:border-[#131b26] transition-all duration-300"
+                className="text-[#131b26] relative group"
               >
-                Testimonials
+                <span>Testimonials</span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#131b26] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
             </nav>
             <Button asChild style={{ backgroundColor: '#131b26' }} className="font-semibold text-white hover:bg-gray-800 rounded-full transition-transform hover:scale-105 duration-200">
