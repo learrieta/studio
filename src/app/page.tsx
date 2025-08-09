@@ -18,10 +18,10 @@ export default function Home() {
         <section className="grid grid-cols-1 md:grid-cols-2 min-h-[calc(100vh-4rem)]">
           <div className="flex flex-col justify-center p-8 md:p-12" style={{ backgroundColor: '#131b26' }}>
               <div className="max-w-md">
-                  <h1 className="text-2xl md:text-4xl font-semibold text-white tracking-tight" style={{ lineHeight: '50px' }}>
+                  <h1 className="text-2xl md:text-4xl font-semibold text-white tracking-tight" style={{ lineHeight: '1.5' }}>
                       Transform Your Home with Lima's Top Remodeler
                   </h1>
-                  <p className="mt-6 text-[1.1rem] text-white/80 leading-relaxed">
+                  <p className="mt-6 text-[1rem] text-white/80 leading-relaxed">
                       At RenovateRight, we blend timeless craftsmanship with modern design to transform your living spaces.
                   </p>
                   <div className="mt-8">
