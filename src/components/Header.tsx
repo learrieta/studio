@@ -28,21 +28,21 @@ export function Header() {
                 className="text-foreground relative group py-3"
               >
                 <span>Services</span>
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                <span className="absolute bottom-[10px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#gallery"
                 className="text-foreground relative group py-3"
               >
                 <span>Gallery</span>
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                <span className="absolute bottom-[10px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#testimonials"
                 className="text-foreground relative group py-3"
               >
                 <span>Testimonials</span>
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
+                <span className="absolute bottom-[10px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
             </nav>
             <Button asChild style={{ backgroundColor: '#131b26' }} className="font-semibold text-white hover:bg-gray-800 rounded-full transition-transform hover:scale-105 duration-200">
@@ -54,7 +54,7 @@ export function Header() {
         <div className="md:hidden">
             <Sheet>
                 <SheetTrigger asChild>
-                    <Button variant="ghost" size="icon">
+                    <Button variant="ghost" size="icon" className="hover:bg-transparent hover:text-foreground">
                         <Menu className="h-6 w-6" />
                         <span className="sr-only">Toggle menu</span>
                     </Button>
