@@ -25,21 +25,21 @@ export function Header() {
             <nav className="flex items-center gap-6 text-sm font-semibold">
              <a
                 href="#services"
-                className="text-[#131b26] relative group"
+                className="text-[#131b26] relative group py-2"
               >
                 <span>Services</span>
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#131b26] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#gallery"
-                className="text-[#131b26] relative group"
+                className="text-[#131b26] relative group py-2"
               >
                 <span>Gallery</span>
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#131b26] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#testimonials"
-                className="text-[#131b26] relative group"
+                className="text-[#131b26] relative group py-2"
               >
                 <span>Testimonials</span>
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#131b26] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
