@@ -84,7 +84,7 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
-              <Card className="text-center group transition-transform duration-300 hover:scale-105" style={{ backgroundColor: 'hsl(var(--primary))' }}>
+              <Card className="text-center group transition-transform duration-300 hover:scale-105" style={{ backgroundColor: 'hsl(var(--foreground))' }}>
                 <CardHeader>
                   <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)'}}>
                     <UtensilsCrossed className="w-10 h-10 text-white" />
@@ -97,7 +97,7 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="text-center group transition-transform duration-300 hover:scale-105" style={{ backgroundColor: 'hsl(var(--primary))' }}>
+              <Card className="text-center group transition-transform duration-300 hover:scale-105" style={{ backgroundColor: 'hsl(var(--foreground))' }}>
                 <CardHeader>
                    <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)'}}>
                     <Bath className="w-10 h-10 text-white" />
@@ -110,7 +110,7 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="text-center group transition-transform duration-300 hover:scale-105" style={{ backgroundColor: 'hsl(var(--primary))' }}>
+              <Card className="text-center group transition-transform duration-300 hover:scale-105" style={{ backgroundColor: 'hsl(var(--foreground))' }}>
                 <CardHeader>
                    <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)'}}>
                     <HomeIcon className="w-10 h-10 text-white" />
@@ -131,7 +131,10 @@ export default function Home() {
         <section id="gallery" className="py-16 md:py-28" style={{ backgroundColor: '#131b26' }}>
           <div className="container mx-auto px-6">
             <div className="text-left mb-12">
-              <p className="text-sm font-semibold uppercase text-white/80 tracking-widest mb-2">-- Our Projects</p>
+              <div className="flex items-center gap-4 mb-2">
+                <div className="w-12 h-0.5 bg-white"></div>
+                <p className="text-sm font-semibold uppercase text-white/80 tracking-widest">Our Projects</p>
+              </div>
               <h2 className="font-headline font-bold text-white" style={{ fontSize: '2rem' }}>Our Work</h2>
               <p className="mt-4 max-w-2xl text-base md:text-lg text-white/80">
                 See the quality and craftsmanship for yourself. Here are a few of our completed projects.
