@@ -88,9 +88,9 @@ export default function Home() {
               <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white bg-foreground">
                 <CardHeader>
                   <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white bg-foreground">
-                    <UtensilsCrossed className="w-10 h-10 text-white" />
+                    <UtensilsCrossed className="w-10 h-10 text-white " />
                   </div>
-                  <CardTitle className="font-headline text-2xl mt-8">Kitchen Remodeling</CardTitle>
+                  <CardTitle className="font-headline text-2xl mt-8 pt-4">Kitchen Remodeling</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-white/80">
@@ -103,7 +103,7 @@ export default function Home() {
                    <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white bg-foreground">
                     <Bath className="w-10 h-10 text-white" />
                   </div>
-                  <CardTitle className="font-headline text-2xl mt-8">Bathroom Remodeling</CardTitle>
+                  <CardTitle className="font-headline text-2xl mt-8 pt-4">Bathroom Remodeling</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-white/80">
@@ -116,7 +116,7 @@ export default function Home() {
                    <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white bg-foreground">
                     <HomeIcon className="w-10 h-10 text-white" />
                   </div>
-                  <CardTitle className="font-headline text-2xl mt-8">Whole House</CardTitle>
+                  <CardTitle className="font-headline text-2xl mt-8 pt-4">Whole House</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-white/80">
@@ -128,19 +128,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Dream Home Generator */}
-        <section id="dream-tool" className="py-16 md:py-28 bg-secondary/50">
-          <div className="container mx-auto px-6">
-             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-5xl font-headline font-bold text-primary">Dream Bigger</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-muted-foreground">
-                Not sure where to start? Use our AI tool to turn your vague ideas into an inspiring project description.
-              </p>
-            </div>
-            <DreamHomeGenerator />
-          </div>
-        </section>
-        
         {/* Project Gallery */}
         <section id="gallery" className="py-16 md:py-28 bg-background">
           <div className="container mx-auto px-6">
