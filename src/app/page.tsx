@@ -56,18 +56,20 @@ export default function Home() {
                   data-ai-hint="construction team blueprint"
                 />
               </div>
-              <div className="prose prose-lg max-w-none">
+              <div>
                 <div className="flex items-center gap-4 mb-2">
                   <div className="w-12 h-0.5 bg-foreground"></div>
                   <p className="text-sm font-semibold uppercase text-foreground tracking-widest">About Us</p>
                 </div>
                 <h3 className="font-headline font-bold text-foreground mb-4" style={{ fontSize: '2rem' }}>Our Commitment to Excellence</h3>
-                <p className="text-muted-foreground mb-4">
-                  At RenovateRight, we believe that every project is a partnership. We work closely with you from concept to completion, ensuring your vision is realized with the highest standards of quality and craftsmanship. Our dedicated team manages every detail, so you can enjoy a seamless and stress-free renovation experience.
-                </p>
-                <p className="text-muted-foreground">
-                  We are committed to transparent communication, innovative solutions, and delivering a final product that not only meets but exceeds your expectations. Trust us to build your dream.
-                </p>
+                <div className="text-foreground/80 space-y-4" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
+                  <p>
+                    At RenovateRight, we believe that every project is a partnership. We work closely with you from concept to completion, ensuring your vision is realized with the highest standards of quality and craftsmanship. Our dedicated team manages every detail, so you can enjoy a seamless and stress-free renovation experience.
+                  </p>
+                  <p>
+                    We are committed to transparent communication, innovative solutions, and delivering a final product that not only meets but exceeds your expectations. Trust us to build your dream.
+                  </p>
+                </div>
               </div>
             </div>
 
