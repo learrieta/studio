@@ -47,14 +47,25 @@ export default function Home() {
         <section id="services" className="py-16 md:py-28 bg-background">
           <div className="container mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-              <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
-                <Image
-                  src="https://placehold.co/600x450.png"
-                  alt="A team of professional remodelers planning a project."
-                  layout="fill"
-                  objectFit="cover"
-                  data-ai-hint="construction team blueprint"
-                />
+              <div className="relative h-96">
+                <div className="absolute top-0 left-0 w-3/4 h-3/4 rounded-lg overflow-hidden shadow-lg">
+                    <Image
+                      src="https://placehold.co/600x450.png"
+                      alt="A team of professional remodelers planning a project."
+                      layout="fill"
+                      objectFit="cover"
+                      data-ai-hint="construction team working"
+                    />
+                </div>
+                <div className="absolute bottom-0 right-0 w-1/2 h-1/2 rounded-lg overflow-hidden border-8 border-background shadow-2xl">
+                    <Image
+                      src="https://placehold.co/400x400.png"
+                      alt="Close-up of high-quality construction materials."
+                      layout="fill"
+                      objectFit="cover"
+                      data-ai-hint="construction materials wood"
+                    />
+                </div>
               </div>
               <div>
                 <div className="flex items-center gap-4 mb-2">
