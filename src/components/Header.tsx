@@ -28,14 +28,14 @@ export function Header() {
                 href="#aboutus"
                 className="text-foreground relative group py-3"
               >
-                <span>Servicios</span>
+                <span>Nosotros</span>
                 <span className="absolute bottom-[8px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#projects"
                 className="text-foreground relative group py-3"
               >
-                <span>Galería</span>
+                <span>Projectos</span>
                 <span className="absolute bottom-[8px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
