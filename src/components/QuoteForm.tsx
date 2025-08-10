@@ -158,7 +158,7 @@ export function QuoteForm() {
             )}
           />
 
-        <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold" size="lg">
+        <Button type="submit" style={{ backgroundColor: '#131b26' }} className="w-full text-primary-foreground font-bold" size="lg">
           Submit Request
         </Button>
       </form>
