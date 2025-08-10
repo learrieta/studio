@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <a href="#" className="flex items-center">
               <Image
-                src="/logo.jpeg"
+                src="/logo.jpg"
                 alt="RenovateRight Logo"
                 width={150}
                 height={60}

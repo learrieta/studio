@@ -15,13 +15,13 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="grid grid-cols-1 md:grid-cols-2 min-h-[calc(100vh-6rem)]">
-          <div className="flex flex-col justify-center p-8 md:p-12" style={{ backgroundColor: '#131b26' }}>
+        <section className="grid grid-cols-1 md:grid-cols-2 min-h-[calc(100vh-5rem)]">
+          <div className="flex flex-col justify-center p-8 md:p-12 order-2 md:order-1" style={{ backgroundColor: '#131b26' }}>
               <div className="max-w-md">
-                  <h1 className="text-2xl font-semibold text-white tracking-tight" style={{ fontSize: '2rem', lineHeight: '1.7' }}>
+                  <h1 className="text-3xl md:text-4xl font-semibold text-white tracking-tight" style={{ lineHeight: '1.7' }}>
                       Transform Your Home with Lima's Top Remodeler
                   </h1>
-                  <p className="mt-6 text-[1rem] text-white/80 leading-relaxed">
+                  <p className="mt-6 text-base md:text-lg text-white/80 leading-relaxed">
                       At Soluciones Integrales we blend timeless craftsmanship with modern design to transform your living spaces
                   </p>
                   <div className="mt-8">
@@ -31,7 +31,7 @@ export default function Home() {
                   </div>
               </div>
           </div>
-          <div className="relative min-h-[50vh] md:min-h-0">
+          <div className="relative min-h-[50vh] md:min-h-0 order-1 md:order-2">
               <Image
                   src="/hero_img.jpeg"
                   alt="Beautifully remodeled home interior"
@@ -45,8 +45,8 @@ export default function Home() {
         {/* Services Section */}
         <section id="services" className="py-16 md:py-28 bg-background">
           <div className="container mx-auto px-6">
-            <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-              <div className="relative h-96">
+            <div className="grid md:grid-cols-2 gap-12 items-center mb-12 md:mb-20">
+              <div className="relative h-96 md:h-auto md:aspect-[4/3]">
                 <div className="absolute top-0 left-0 w-3/4 h-3/4 rounded-lg overflow-hidden shadow-lg">
                     <Image
                       src="https://placehold.co/600x450.png"
@@ -71,8 +71,8 @@ export default function Home() {
                   <div className="w-12 h-0.5 bg-foreground"></div>
                   <p className="text-sm font-semibold uppercase text-foreground tracking-widest">About Us</p>
                 </div>
-                <h3 className="font-headline font-bold text-foreground mb-4" style={{ fontSize: '2rem' }}>Our Commitment to Excellence</h3>
-                <div className="text-foreground/80 space-y-4" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
+                <h3 className="font-headline font-bold text-foreground mb-4 text-3xl md:text-4xl">Our Commitment to Excellence</h3>
+                <div className="text-foreground/80 space-y-4 text-base" style={{ lineHeight: '1.8' }}>
                   <p>
                     At RenovateRight, we believe that every project is a partnership. We work closely with you from concept to completion, ensuring your vision is realized with the highest standards of quality and craftsmanship. Our dedicated team manages every detail, so you can enjoy a seamless and stress-free renovation experience.
                   </p>
@@ -135,7 +135,7 @@ export default function Home() {
                 <div className="w-12 h-0.5 bg-white"></div>
                 <p className="text-sm font-semibold uppercase text-white/80 tracking-widest">Our Projects</p>
               </div>
-              <h2 className="font-headline font-bold text-white" style={{ fontSize: '2rem' }}>Turning Ordinary Space Into Extraordinary Designs</h2>
+              <h2 className="font-headline font-bold text-white text-3xl md:text-4xl">Turning Ordinary Space Into Extraordinary Designs</h2>
               <p className="mt-4 max-w-2xl text-base md:text-lg text-white/80">
                 See the quality and craftsmanship for yourself. Here are a few of our completed projects.
               </p>
@@ -152,7 +152,7 @@ export default function Home() {
                 <div className="w-12 h-0.5" style={{ backgroundColor: '#131b26' }}></div>
                 <p className="text-sm font-semibold uppercase tracking-widest" style={{ color: '#131b26' }}>Our Customers</p>
               </div>
-              <h2 className="font-headline font-bold" style={{ fontSize: '2rem', color: '#131b26' }}>Here Is What Our Satisfied Clients Say</h2>
+              <h2 className="font-headline font-bold text-3xl md:text-4xl" style={{ color: '#131b26' }}>Here Is What Our Satisfied Clients Say</h2>
               <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg" style={{ color: '#131b26' }}>
                 We're proud of the relationships we build and the homes we transform.
               </p>
@@ -165,7 +165,7 @@ export default function Home() {
         <section id="quote" className="py-16 md:py-28" style={{ backgroundColor: '#131b26' }}>
           <div className="container mx-auto px-6">
              <div className="text-center mb-12">
-              <h2 className="font-headline font-bold text-white" style={{ fontSize: '2rem' }}>Ready to Start Your Project?</h2>
+              <h2 className="font-headline font-bold text-white text-3xl md:text-4xl" style={{ fontSize: '2rem' }}>Ready to Start Your Project?</h2>
               <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-white/80">
                 Fill out the form below to get a free, no-obligation quote from our team of experts.
               </p>
@@ -184,3 +184,5 @@ export default function Home() {
     </div>
   );
 }
+
+    

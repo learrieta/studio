@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -39,7 +40,7 @@ const projects = [
     title: "Luxurious Master Suite",
     image: "https://placehold.co/600x400.png",
     hint: "bedroom interior",
-    description: "This master bedroom was redesigned to include a spacious walk-in closet and a cozy sitting area. This is a much longer description to test how the card handles varying text lengths to ensure consistent height across all project showcases.",
+    description: "This master bedroom was redesigned to include a spacious walk-in closet and a cozy sitting area.",
   },
 ];
 
@@ -77,8 +78,10 @@ export function ProjectGallery() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="ml-14" />
-      <CarouselNext className="mr-14" />
+      <CarouselPrevious className="ml-4 md:ml-14" />
+      <CarouselNext className="mr-4 md:mr-14" />
     </Carousel>
   );
 }
+
+    

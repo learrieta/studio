@@ -1,3 +1,4 @@
+
 "use client";
 
 import {
@@ -38,7 +39,7 @@ export function Testimonials() {
         align: "start",
         loop: true,
       }}
-      className="w-full max-w-4xl mx-auto"
+      className="w-full max-w-sm md:max-w-4xl mx-auto"
     >
       <CarouselContent>
         {testimonials.map((testimonial, index) => (
@@ -62,8 +63,10 @@ export function Testimonials() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="-left-12" />
-      <CarouselNext className="-right-12" />
+      <CarouselPrevious className="hidden md:flex -left-12" />
+      <CarouselNext className="hidden md:flex -right-12" />
     </Carousel>
   );
 }
+
+    

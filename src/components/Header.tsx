@@ -1,3 +1,4 @@
+
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
@@ -16,7 +17,7 @@ const Logo = () => (
 
 export function Header() {
   return (
-    <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-40">
       <div className="container flex h-20 items-center justify-between">
         <Logo />
 
@@ -79,3 +80,5 @@ export function Header() {
     </header>
   );
 }
+
+    
