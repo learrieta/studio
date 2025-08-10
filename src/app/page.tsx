@@ -8,7 +8,6 @@ import { Footer } from '@/components/Footer';
 import { ProjectGallery } from '@/components/ProjectGallery';
 import { Testimonials } from '@/components/Testimonials';
 import { QuoteForm } from '@/components/QuoteForm';
-import { DreamHomeGenerator } from '@/components/DreamHomeGenerator';
 
 export default function Home() {
   return (
@@ -162,22 +161,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* AI Feature Section */}
-        <section id="ai-dream" className="py-16 md:py-28 bg-background">
-          <div className="container mx-auto px-6">
-            <div className="text-center mb-12">
-              <div className="flex items-center justify-center gap-4 mb-2">
-                <div className="w-12 h-0.5 bg-foreground"></div>
-                <p className="text-sm font-semibold uppercase text-foreground tracking-widest">Visualiza tu Sueño</p>
-              </div>
-              <h2 className="font-headline font-bold text-3xl md:text-4xl text-foreground">Generador de Descripción de Casa de Ensueño</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-foreground/80">
-                ¿No estás seguro por dónde empezar? Describe tus ideas y deja que nuestra IA cree una descripción vívida de tu proyecto de ensueño para inspirarte.
-              </p>
-            </div>
-            <DreamHomeGenerator />
-          </div>
-        </section>
         
         {/* Quote Form */}
         <section id="quote" className="py-16 md:py-28 bg-foreground">
