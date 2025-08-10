@@ -45,13 +45,6 @@ export default function Home() {
         {/* Services Section */}
         <section id="services" className="py-16 md:py-28 bg-background">
           <div className="container mx-auto px-6">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-5xl font-headline font-bold text-primary">Our Services</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-muted-foreground">
-                From single rooms to whole-house transformations, we offer a full range of remodeling services.
-              </p>
-            </div>
-
             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
               <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
                 <Image
