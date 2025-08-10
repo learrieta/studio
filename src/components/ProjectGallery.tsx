@@ -15,26 +15,31 @@ const projects = [
     title: "Modern Kitchen Overhaul",
     image: "https://placehold.co/600x400.png",
     hint: "remodeled kitchen",
+    description: "A stunning transformation with sleek cabinets, quartz countertops, and state-of-the-art appliances.",
   },
   {
     title: "Spa-like Bathroom Retreat",
     image: "https://placehold.co/600x400.png",
     hint: "modern bathroom",
+    description: "From a cramped space to a serene oasis, featuring a walk-in shower and elegant tiling.",
   },
   {
     title: "Open Concept Living Area",
     image: "https://placehold.co/600x400.png",
     hint: "living room interior",
+    description: "We removed walls to create a bright, airy space perfect for entertaining and family gatherings.",
   },
   {
     title: "Elegant Exterior Facelift",
     image: "https://placehold.co/600x400.png",
     hint: "house exterior",
+    description: "A complete exterior renovation with new siding, windows, and a welcoming front porch.",
   },
   {
     title: "Luxurious Master Suite",
     image: "https://placehold.co/600x400.png",
     hint: "bedroom interior",
+    description: "This master bedroom was redesigned to include a spacious walk-in closet and a cozy sitting area.",
   },
 ];
 
@@ -64,6 +69,7 @@ export function ProjectGallery() {
                   </div>
                   <div className="p-4" style={{ backgroundColor: '#131b26' }}>
                     <h3 className="font-headline text-lg font-semibold text-white">{project.title}</h3>
+                    <p className="mt-2 text-sm text-white/80">{project.description}</p>
                   </div>
                 </CardContent>
               </Card>
