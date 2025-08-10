@@ -58,8 +58,8 @@ export default function Home() {
               </div>
               <div className="prose prose-lg max-w-none">
                 <div className="flex items-center gap-4 mb-2">
-                  <div className="w-12 h-0.5 bg-accent"></div>
-                  <p className="text-sm font-semibold uppercase text-accent tracking-widest">About Us</p>
+                  <div className="w-12 h-0.5 bg-foreground"></div>
+                  <p className="text-sm font-semibold uppercase text-foreground tracking-widest">About Us</p>
                 </div>
                 <h3 className="font-headline font-bold text-foreground mb-4" style={{ fontSize: '2rem' }}>Our Commitment to Excellence</h3>
                 <p className="text-muted-foreground mb-4">
