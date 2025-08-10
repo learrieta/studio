@@ -74,10 +74,10 @@ export default function Home() {
                 </div>
                 <h3 className="font-headline font-bold text-foreground mb-4" style={{ fontSize: '2rem' }}>Our Commitment to Excellence</h3>
                 <div className="text-foreground space-y-4" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
-                  <p>
+                  <p className="text-foreground">
                     At RenovateRight, we believe that every project is a partnership. We work closely with you from concept to completion, ensuring your vision is realized with the highest standards of quality and craftsmanship. Our dedicated team manages every detail, so you can enjoy a seamless and stress-free renovation experience.
                   </p>
-                  <p>
+                  <p className="text-foreground">
                     We are committed to transparent communication, innovative solutions, and delivering a final product that not only meets but exceeds your expectations. Trust us to build your dream.
                   </p>
                 </div>
@@ -85,41 +85,41 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
-              <Card className="text-center group transition-transform duration-300 hover:scale-105 bg-blue-600 text-white">
+              <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white" style={{ backgroundColor: 'hsl(var(--foreground))' }}>
                 <CardHeader>
-                  <div className="mx-auto bg-blue-500 rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+                  <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110" style={{ backgroundColor: 'hsla(var(--foreground-rgb), 0.2)' }}>
                     <UtensilsCrossed className="w-10 h-10 text-foreground" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Kitchen Remodeling</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-blue-100">
+                  <p className="text-white/80">
                     Create a beautiful and functional heart of your home with our custom kitchen designs, from cabinets to countertops.
                   </p>
                 </CardContent>
               </Card>
-              <Card className="text-center group transition-transform duration-300 hover:scale-105 bg-blue-600 text-white">
+              <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white" style={{ backgroundColor: 'hsl(var(--foreground))' }}>
                 <CardHeader>
-                   <div className="mx-auto bg-blue-500 rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+                   <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110" style={{ backgroundColor: 'hsla(var(--foreground-rgb), 0.2)' }}>
                     <Bath className="w-10 h-10 text-foreground" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Bathroom Remodeling</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-blue-100">
+                  <p className="text-white/80">
                     Turn your bathroom into a spa-like retreat. We handle everything from tiling and fixtures to vanities and lighting.
                   </p>
                 </CardContent>
               </Card>
-              <Card className="text-center group transition-transform duration-300 hover:scale-105 bg-blue-600 text-white">
+              <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white" style={{ backgroundColor: 'hsl(var(--foreground))' }}>
                 <CardHeader>
-                   <div className="mx-auto bg-blue-500 rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+                   <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110" style={{ backgroundColor: 'hsla(var(--foreground-rgb), 0.2)' }}>
                     <HomeIcon className="w-10 h-10 text-foreground" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Whole House</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-blue-100">
+                  <p className="text-white/80">
                     Comprehensive remodeling for your entire home, ensuring a cohesive and stunning design throughout.
                   </p>
                 </CardContent>

@@ -10,6 +10,7 @@ body {
   :root {
     --background: 240 100% 99%;
     --foreground: 215 33% 11%;
+    --foreground-rgb: 35, 43, 53;
     --card: 240 100% 99%;
     --card-foreground: 215 33% 11%;
     --popover: 240 100% 99%;
@@ -37,6 +38,7 @@ body {
   .dark {
     --background: 25 10% 10%;
     --foreground: 240 100% 99%;
+    --foreground-rgb: 252, 252, 253;
     --card: 25 10% 12%;
     --card-foreground: 240 100% 99%;
     --popover: 25 10% 10%;
