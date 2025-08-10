@@ -52,7 +52,7 @@ export function Testimonials() {
                   </p>
                   <div className="flex items-center space-x-4">
                     <Avatar>
-                      <AvatarImage src={testimonial.avatar} alt={testimonial.name} data-ai-hint={testimonial.hint} />
+                      <AvatarImage src={testimonial.avatar} alt={`Avatar de ${testimonial.name}`} data-ai-hint={testimonial.hint} />
                       <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                     </Avatar>
                     <span className="font-semibold font-headline" style={{ color: '#131b26' }}>{testimonial.name}</span>
@@ -68,5 +68,3 @@ export function Testimonials() {
     </Carousel>
   );
 }
-
-    

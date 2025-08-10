@@ -24,11 +24,11 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 
 const formSchema = z.object({
-  name: z.string().min(2, { message: "Name must be at least 2 characters." }),
-  email: z.string().email({ message: "Please enter a valid email address." }),
+  name: z.string().min(2, { message: "El nombre debe tener al menos 2 caracteres." }),
+  email: z.string().email({ message: "Por favor, introduce una dirección de correo electrónico válida." }),
   phone: z.string().optional(),
   service: z.enum(["kitchen", "bathroom", "whole_house", "other"]),
-  message: z.string().min(10, { message: "Please provide some details about your project." }),
+  message: z.string().min(10, { message: "Por favor, proporciona algunos detalles sobre tu proyecto." }),
 });
 
 export function QuoteForm() {
@@ -55,8 +55,8 @@ export function QuoteForm() {
         <div className="bg-primary/10 rounded-full p-4 mb-4 animate-in zoom-in-50">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
         </div>
-        <h3 className="text-2xl font-semibold font-headline text-primary">Thank You!</h3>
-        <p className="mt-2 text-muted-foreground">Your quote request has been sent. We'll be in touch shortly.</p>
+        <h3 className="text-2xl font-semibold font-headline text-primary">¡Gracias!</h3>
+        <p className="mt-2 text-muted-foreground">Tu solicitud de cotización ha sido enviada. Nos pondremos en contacto en breve.</p>
         <Button 
           onClick={() => {
             setIsSubmitted(false);
@@ -65,7 +65,7 @@ export function QuoteForm() {
           className="mt-6"
           variant="outline"
         >
-          Submit Another Request
+          Enviar Otra Solicitud
         </Button>
       </div>
     );
@@ -80,7 +80,7 @@ export function QuoteForm() {
             name="name"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Full Name</FormLabel>
+                <FormLabel>Nombre Completo</FormLabel>
                 <FormControl>
                   <Input placeholder="John Doe" {...field} />
                 </FormControl>
@@ -93,9 +93,9 @@ export function QuoteForm() {
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Email Address</FormLabel>
+                <FormLabel>Correo Electrónico</FormLabel>
                 <FormControl>
-                  <Input placeholder="you@example.com" {...field} />
+                  <Input placeholder="tu@ejemplo.com" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -108,7 +108,7 @@ export function QuoteForm() {
               name="phone"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Phone Number (Optional)</FormLabel>
+                  <FormLabel>Número de Teléfono (Opcional)</FormLabel>
                   <FormControl>
                     <Input placeholder="(123) 456-7890" {...field} />
                   </FormControl>
@@ -121,18 +121,18 @@ export function QuoteForm() {
               name="service"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Service of Interest</FormLabel>
+                  <FormLabel>Servicio de Interés</FormLabel>
                   <Select onValueChange={field.onChange} defaultValue={field.value}>
                     <FormControl>
                       <SelectTrigger>
-                        <SelectValue placeholder="Select a service" />
+                        <SelectValue placeholder="Selecciona un servicio" />
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      <SelectItem value="kitchen">Kitchen Remodeling</SelectItem>
-                      <SelectItem value="bathroom">Bathroom Remodeling</SelectItem>
-                      <SelectItem value="whole_house">Whole House Renovation</SelectItem>
-                      <SelectItem value="other">Other</SelectItem>
+                      <SelectItem value="kitchen">Remodelación de Cocina</SelectItem>
+                      <SelectItem value="bathroom">Remodelación de Baño</SelectItem>
+                      <SelectItem value="whole_house">Renovación de Casa Completa</SelectItem>
+                      <SelectItem value="other">Otro</SelectItem>
                     </SelectContent>
                   </Select>
                   <FormMessage />
@@ -145,10 +145,10 @@ export function QuoteForm() {
             name="message"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Tell us about your project</FormLabel>
+                <FormLabel>Cuéntanos sobre tu proyecto</FormLabel>
                 <FormControl>
                   <Textarea
-                    placeholder="Describe your project, your goals, and any questions you have."
+                    placeholder="Describe tu proyecto, tus metas y cualquier pregunta que tengas."
                     className="min-h-[120px]"
                     {...field}
                   />
@@ -159,7 +159,7 @@ export function QuoteForm() {
           />
 
         <Button type="submit" style={{ backgroundColor: '#131b26' }} className="w-full text-primary-foreground font-bold transition-transform hover:scale-105 duration-200" size="lg">
-          Submit Request
+          Enviar Solicitud
         </Button>
       </form>
     </Form>

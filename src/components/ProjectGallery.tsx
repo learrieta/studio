@@ -83,5 +83,3 @@ export function ProjectGallery() {
     </Carousel>
   );
 }
-
-    

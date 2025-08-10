@@ -3,29 +3,29 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'RenovateRight | Quality Remodeling',
-  description: 'High-quality home remodeling services in Lima. We specialize in kitchen, bath, and whole-house renovations to create the home of your dreams.',
-  keywords: 'home remodeling, kitchen renovation, bathroom remodel, general contractor, Lima, renovation services, home improvement',
+  title: 'Soluciones Integrales | Remodelaciones de Calidad en Lima',
+  description: 'Servicios de remodelación de casas de alta calidad en Lima. Nos especializamos en renovaciones de cocinas, baños y casas completas para crear el hogar de tus sueños.',
+  keywords: 'remodelación de casas, renovación de cocinas, remodelación de baños, contratista general, Lima, servicios de renovación, mejoramiento del hogar',
   openGraph: {
-    title: 'RenovateRight | Quality Remodeling in Lima',
-    description: 'Transform your space with Lima\'s top-rated home remodeling experts. Quality craftsmanship for kitchen, bath, and whole-house renovations.',
-    url: 'https://renovateright.com', // Replace with your actual domain
-    siteName: 'RenovateRight',
+    title: 'Soluciones Integrales | Remodelaciones de Calidad en Lima',
+    description: 'Transforma tu espacio con los mejores expertos en remodelación de casas de Lima. Calidad artesanal para renovaciones de cocinas, baños y casas completas.',
+    url: 'https://soluciones-integrales.com', // Replace with your actual domain
+    siteName: 'Soluciones Integrales',
     images: [
       {
         url: '/logo.jpg', // Path to your OG image
         width: 1200,
         height: 630,
-        alt: 'A beautifully remodeled kitchen by RenovateRight',
+        alt: 'Una cocina hermosamente remodelada por Soluciones Integrales',
       },
     ],
-    locale: 'en_US',
+    locale: 'es_PE',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'RenovateRight | Top-Tier Home Remodeling',
-    description: 'From dream kitchens to spa-like bathrooms, RenovateRight brings your vision to life with expert remodeling services in Lima.',
+    title: 'Soluciones Integrales | Remodelación de Casas de Primer Nivel',
+    description: 'Desde cocinas de ensueño hasta baños tipo spa, Soluciones Integrales hace realidad tu visión con servicios expertos de remodelación en Lima.',
     images: ['/logo.jpg'], // Path to your Twitter image
   },
   robots: {
@@ -47,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
