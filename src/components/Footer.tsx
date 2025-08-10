@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -6,7 +7,14 @@ export function Footer() {
       <div className="container mx-auto px-6 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="font-headline text-xl font-bold text-primary">RenovateRight</h3>
+            <a href="#" className="flex items-center">
+              <Image
+                src="/logo.jpg"
+                alt="RenovateRight Logo"
+                width={150}
+                height={60}
+              />
+            </a>
             <p className="mt-2 text-muted-foreground">
               Your trusted partner in home remodeling and renovation.
             </p>
