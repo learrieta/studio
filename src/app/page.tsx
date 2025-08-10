@@ -57,7 +57,7 @@ export default function Home() {
                       data-ai-hint="construction team working"
                     />
                 </div>
-                <div className="absolute bottom-0 right-0 w-1/2 h-1/2 rounded-lg overflow-hidden border-8 border-background shadow-2xl">
+                <div className="absolute bottom-0 right-0 w-3/4 h-3/4 rounded-lg overflow-hidden shadow-lg">
                     <Image
                       src="https://placehold.co/450x600.png"
                       alt="Close-up of high-quality construction materials."
@@ -73,7 +73,7 @@ export default function Home() {
                   <p className="text-sm font-semibold uppercase text-foreground tracking-widest">About Us</p>
                 </div>
                 <h3 className="font-headline font-bold text-foreground mb-4" style={{ fontSize: '2rem' }}>Our Commitment to Excellence</h3>
-                <div className="text-foreground/80 space-y-4" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
+                <div className="text-foreground space-y-4" style={{ fontSize: '1rem', lineHeight: '1.8' }}>
                   <p>
                     At RenovateRight, we believe that every project is a partnership. We work closely with you from concept to completion, ensuring your vision is realized with the highest standards of quality and craftsmanship. Our dedicated team manages every detail, so you can enjoy a seamless and stress-free renovation experience.
                   </p>
