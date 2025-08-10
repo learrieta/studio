@@ -9,11 +9,7 @@ const Logo = () => (
     <Image
       src="/logo.jpg"
       alt="Soluciones Integrales Logo"
-<<<<<<< HEAD
-      width={80}
-=======
       width={70}
->>>>>>> dc043c0ebcb5c5073c27bc332c3b94709997ae3b
       height={40}
     />
   </a>
@@ -32,22 +28,14 @@ export function Header() {
                 href="#aboutus"
                 className="text-foreground relative group py-3"
               >
-<<<<<<< HEAD
-                <span>About Us</span>
-=======
                 <span>Servicios</span>
->>>>>>> dc043c0ebcb5c5073c27bc332c3b94709997ae3b
                 <span className="absolute bottom-[8px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#projects"
                 className="text-foreground relative group py-3"
               >
-<<<<<<< HEAD
-                <span>Projects</span>
-=======
                 <span>Galería</span>
->>>>>>> dc043c0ebcb5c5073c27bc332c3b94709997ae3b
                 <span className="absolute bottom-[8px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
