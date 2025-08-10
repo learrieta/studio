@@ -130,9 +130,9 @@ export default function Home() {
         {/* Project Gallery */}
         <section id="gallery" className="py-16 md:py-28" style={{ backgroundColor: '#131b26' }}>
           <div className="container mx-auto px-6">
-            <div className="text-center mb-12">
+            <div className="text-left mb-12">
               <h2 className="text-3xl md:text-5xl font-headline font-bold text-white">Our Work</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-white/80">
+              <p className="mt-4 max-w-2xl text-base md:text-lg text-white/80">
                 See the quality and craftsmanship for yourself. Here are a few of our completed projects.
               </p>
             </div>
