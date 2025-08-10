@@ -8,7 +8,7 @@ const Logo = () => (
     <Image
       src="/logo.jpg"
       alt="Soluciones Integrales Logo"
-      width={100}
+      width={80}
       height={40}
     />
   </a>
@@ -24,17 +24,17 @@ export function Header() {
         <div className="hidden md:flex items-center gap-8">
             <nav className="flex items-center gap-8 text-base font-semibold">
              <a
-                href="#services"
+                href="#aboutus"
                 className="text-foreground relative group py-3"
               >
-                <span>Services</span>
+                <span>About Us</span>
                 <span className="absolute bottom-[8px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
-                href="#gallery"
+                href="#projects"
                 className="text-foreground relative group py-3"
               >
-                <span>Gallery</span>
+                <span>Projects</span>
                 <span className="absolute bottom-[8px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
