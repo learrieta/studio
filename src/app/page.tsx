@@ -135,7 +135,7 @@ export default function Home() {
                 <div className="w-12 h-0.5 bg-white"></div>
                 <p className="text-sm font-semibold uppercase text-white/80 tracking-widest">Our Projects</p>
               </div>
-              <h2 className="font-headline font-bold text-white" style={{ fontSize: '2rem' }}>Our Work</h2>
+              <h2 className="font-headline font-bold text-white" style={{ fontSize: '2rem' }}>Turning Ordinary Space Into Extraordinary Designs</h2>
               <p className="mt-4 max-w-2xl text-base md:text-lg text-white/80">
                 See the quality and craftsmanship for yourself. Here are a few of our completed projects.
               </p>
