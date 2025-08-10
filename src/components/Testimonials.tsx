@@ -47,9 +47,9 @@ export function Testimonials() {
         {testimonials.map((testimonial, index) => (
           <CarouselItem key={index}>
             <div className="p-4">
-              <Card style={{ backgroundColor: '#131b26' }}>
+              <Card style={{ backgroundColor: 'white', border: '1px solid #e5e7eb' }}>
                 <CardContent className="p-8 text-center flex flex-col items-center">
-                  <p className="text-lg italic text-white/80 mb-6">
+                  <p className="text-lg italic mb-6" style={{ color: '#131b26' }}>
                     &ldquo;{testimonial.quote}&rdquo;
                   </p>
                   <div className="flex items-center space-x-4">
@@ -57,7 +57,7 @@ export function Testimonials() {
                       <AvatarImage src={testimonial.avatar} alt={testimonial.name} data-ai-hint={testimonial.hint} />
                       <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                     </Avatar>
-                    <span className="font-semibold font-headline text-white">{testimonial.name}</span>
+                    <span className="font-semibold font-headline" style={{ color: '#131b26' }}>{testimonial.name}</span>
                   </div>
                 </CardContent>
               </Card>
