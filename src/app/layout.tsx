@@ -3,14 +3,14 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Soluciones Integrales | Remodelaciones de Calidad en Lima',
+  title: 'JCTC | Soluciones Integrales',
   description: 'Servicios de remodelación de casas de alta calidad en Lima. Nos especializamos en renovaciones de cocinas, baños y casas completas para crear el hogar de tus sueños.',
   keywords: 'remodelación de casas, renovación de cocinas, remodelación de baños, contratista general, Lima, servicios de renovación, mejoramiento del hogar',
   openGraph: {
-    title: 'Soluciones Integrales | Remodelaciones de Calidad en Lima',
+    title: 'JCTC | Soluciones Integrales',
     description: 'Transforma tu espacio con los mejores expertos en remodelación de casas de Lima. Calidad artesanal para renovaciones de cocinas, baños y casas completas.',
-    url: 'https://soluciones-integrales.com', // Replace with your actual domain
-    siteName: 'Soluciones Integrales',
+    url: 'https://jctcsoluciones.com', // Replace with your actual domain
+    siteName: 'JCTC | Soluciones Integrales',
     images: [
       {
         url: '/logo.jpg', // Path to your OG image
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Soluciones Integrales | Remodelación de Casas de Primer Nivel',
+    title: 'JCTC | Soluciones Integrales',
     description: 'Desde cocinas de ensueño hasta baños tipo spa, Soluciones Integrales hace realidad tu visión con servicios expertos de remodelación en Lima.',
     images: ['/logo.jpg'], // Path to your Twitter image
   },
