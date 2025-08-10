@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <a href="#" className="flex items-center">
               <Image
-                src="/logo.jpg"
+                src="/logo.jpeg"
                 alt="RenovateRight Logo"
                 width={150}
                 height={60}
@@ -20,15 +20,15 @@ export function Footer() {
             <h3 className="font-headline text-lg font-semibold text-foreground">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-muted-foreground">
               <li className="flex items-center gap-2 transition-colors hover:text-foreground">
-                <Phone className="h-4 w-4 text-primary" />
+                <Phone className="h-4 w-4 text-foreground" />
                 <span>(123) 456-7890</span>
               </li>
               <li className="flex items-center gap-2 transition-colors hover:text-foreground">
-                <Mail className="h-4 w-4 text-primary" />
+                <Mail className="h-4 w-4 text-foreground" />
                 <span>contact@renovateright.com</span>
               </li>
               <li className="flex items-center gap-2 transition-colors hover:text-foreground">
-                <MapPin className="h-4 w-4 text-primary" />
+                <MapPin className="h-4 w-4 text-foreground" />
                 <span>123 Remodel St, Design City, USA</span>
               </li>
             </ul>
