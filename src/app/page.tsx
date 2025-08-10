@@ -59,7 +59,7 @@ export default function Home() {
                 </div>
                 <div className="absolute bottom-0 right-0 w-1/2 h-1/2 rounded-lg overflow-hidden border-8 border-background shadow-2xl">
                     <Image
-                      src="https://placehold.co/400x400.png"
+                      src="https://placehold.co/450x600.png"
                       alt="Close-up of high-quality construction materials."
                       layout="fill"
                       objectFit="cover"
