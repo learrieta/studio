@@ -162,11 +162,11 @@ export default function Home() {
         </section>
         
         {/* Quote Form */}
-        <section id="quote" className="py-16 md:py-28 bg-background">
+        <section id="quote" className="py-16 md:py-28" style={{ backgroundColor: '#131b26' }}>
           <div className="container mx-auto px-6">
              <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-5xl font-headline font-bold text-primary">Ready to Start Your Project?</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-muted-foreground">
+              <h2 className="font-headline font-bold text-white" style={{ fontSize: '2rem' }}>Ready to Start Your Project?</h2>
+              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-white/80">
                 Fill out the form below to get a free, no-obligation quote from our team of experts.
               </p>
             </div>
