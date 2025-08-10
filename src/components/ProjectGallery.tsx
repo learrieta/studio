@@ -39,7 +39,7 @@ const projects = [
     title: "Luxurious Master Suite",
     image: "https://placehold.co/600x400.png",
     hint: "bedroom interior",
-    description: "This master bedroom was redesigned to include a spacious walk-in closet and a cozy sitting area.",
+    description: "This master bedroom was redesigned to include a spacious walk-in closet and a cozy sitting area. This is a much longer description to test how the card handles varying text lengths to ensure consistent height across all project showcases.",
   },
 ];
 
@@ -55,9 +55,9 @@ export function ProjectGallery() {
       <CarouselContent>
         {projects.map((project, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="p-1">
-              <Card className="overflow-hidden group" style={{ backgroundColor: '#131b26' }}>
-                <CardContent className="p-0">
+            <div className="p-1 h-full">
+              <Card className="overflow-hidden group h-full flex flex-col" style={{ backgroundColor: '#131b26' }}>
+                <CardContent className="p-0 flex flex-col flex-grow">
                   <div className="aspect-video relative overflow-hidden">
                     <Image
                       src={project.image}
@@ -67,9 +67,9 @@ export function ProjectGallery() {
                       data-ai-hint={project.hint}
                     />
                   </div>
-                  <div className="p-4" style={{ backgroundColor: '#131b26' }}>
+                  <div className="p-4 flex flex-col flex-grow" style={{ backgroundColor: '#131b26' }}>
                     <h3 className="font-headline text-lg font-semibold text-white">{project.title}</h3>
-                    <p className="mt-2 text-sm text-white/80">{project.description}</p>
+                    <p className="mt-2 text-sm text-white/80 flex-grow">{project.description}</p>
                   </div>
                 </CardContent>
               </Card>
