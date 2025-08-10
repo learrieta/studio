@@ -98,28 +98,28 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="text-center group hover:shadow-xl transition-shadow duration-300 border-2 border-transparent hover:border-primary/50">
+              <Card className="text-center group transition-transform duration-300 hover:scale-105 bg-blue-600 text-white">
                 <CardHeader>
-                   <div className="mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                    <Bath className="w-10 h-10 text-primary" />
+                   <div className="mx-auto bg-blue-500 rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+                    <Bath className="w-10 h-10 text-foreground" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Bathroom Remodeling</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">
+                  <p className="text-blue-100">
                     Turn your bathroom into a spa-like retreat. We handle everything from tiling and fixtures to vanities and lighting.
                   </p>
                 </CardContent>
               </Card>
-              <Card className="text-center group hover:shadow-xl transition-shadow duration-300 border-2 border-transparent hover:border-primary/50">
+              <Card className="text-center group transition-transform duration-300 hover:scale-105 bg-blue-600 text-white">
                 <CardHeader>
-                   <div className="mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                    <HomeIcon className="w-10 h-10 text-primary" />
+                   <div className="mx-auto bg-blue-500 rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+                    <HomeIcon className="w-10 h-10 text-foreground" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Whole House</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">
+                  <p className="text-blue-100">
                     Comprehensive remodeling for your entire home, ensuring a cohesive and stunning design throughout.
                   </p>
                 </CardContent>
