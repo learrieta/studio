@@ -42,6 +42,7 @@ export function Footer() {
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
           <p>&copy; 2025 Soluciones Integrales. All rights reserved.</p>
+          <p className="mt-2">Designed and Developed by WebSense Studios</p>
         </div>
       </div>
     </footer>
