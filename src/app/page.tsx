@@ -85,9 +85,9 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
-              <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white" style={{ backgroundColor: 'hsl(var(--primary))' }}>
+              <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white bg-foreground">
                 <CardHeader>
-                  <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white" style={{ backgroundColor: 'hsl(var(--primary))' }}>
+                  <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white bg-foreground">
                     <UtensilsCrossed className="w-10 h-10 text-white" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Kitchen Remodeling</CardTitle>
@@ -98,9 +98,9 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white" style={{ backgroundColor: 'hsl(var(--primary))' }}>
+              <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white bg-foreground">
                 <CardHeader>
-                   <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white" style={{ backgroundColor: 'hsl(var(--primary))' }}>
+                   <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white bg-foreground">
                     <Bath className="w-10 h-10 text-white" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Bathroom Remodeling</CardTitle>
@@ -111,9 +111,9 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white" style={{ backgroundColor: 'hsl(var(--primary))' }}>
+              <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white bg-foreground">
                 <CardHeader>
-                   <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white" style={{ backgroundColor: 'hsl(var(--primary))' }}>
+                   <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 border-2 border-white bg-foreground">
                     <HomeIcon className="w-10 h-10 text-white" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Whole House</CardTitle>
