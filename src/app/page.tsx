@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -15,7 +16,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="grid grid-cols-1 md:grid-cols-2 min-h-[calc(100vh-5.5rem)]">
+        <section className="grid grid-cols-1 md:grid-cols-2 min-h-[calc(100vh-6rem)]">
           <div className="flex flex-col justify-center p-8 md:p-12" style={{ backgroundColor: '#131b26' }}>
               <div className="max-w-md">
                   <h1 className="text-2xl font-semibold text-white tracking-tight" style={{ fontSize: '2rem', lineHeight: '1.7' }}>
@@ -56,6 +57,7 @@ export default function Home() {
                 />
               </div>
               <div className="prose prose-lg max-w-none">
+                <p className="text-sm font-semibold uppercase text-accent tracking-widest mb-2">About Us</p>
                 <h3 className="text-3xl font-headline font-bold text-primary mb-4">Our Commitment to Excellence</h3>
                 <p className="text-muted-foreground mb-4">
                   At RenovateRight, we believe that every project is a partnership. We work closely with you from concept to completion, ensuring your vision is realized with the highest standards of quality and craftsmanship. Our dedicated team manages every detail, so you can enjoy a seamless and stress-free renovation experience.
