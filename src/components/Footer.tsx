@@ -41,7 +41,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} RenovateRight. All rights reserved.</p>
+          <p>&copy; 2025 Soluciones Integrales. All rights reserved.</p>
         </div>
       </div>
     </footer>
