@@ -1,3 +1,4 @@
+
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
@@ -8,7 +9,11 @@ const Logo = () => (
     <Image
       src="/logo.jpg"
       alt="Soluciones Integrales Logo"
+<<<<<<< HEAD
       width={80}
+=======
+      width={70}
+>>>>>>> dc043c0ebcb5c5073c27bc332c3b94709997ae3b
       height={40}
     />
   </a>
@@ -16,7 +21,7 @@ const Logo = () => (
 
 export function Header() {
   return (
-    <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-40">
       <div className="container flex h-20 items-center justify-between">
         <Logo />
 
@@ -27,26 +32,34 @@ export function Header() {
                 href="#aboutus"
                 className="text-foreground relative group py-3"
               >
+<<<<<<< HEAD
                 <span>About Us</span>
+=======
+                <span>Servicios</span>
+>>>>>>> dc043c0ebcb5c5073c27bc332c3b94709997ae3b
                 <span className="absolute bottom-[8px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#projects"
                 className="text-foreground relative group py-3"
               >
+<<<<<<< HEAD
                 <span>Projects</span>
+=======
+                <span>Galería</span>
+>>>>>>> dc043c0ebcb5c5073c27bc332c3b94709997ae3b
                 <span className="absolute bottom-[8px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
               <a
                 href="#testimonials"
                 className="text-foreground relative group py-3"
               >
-                <span>Testimonials</span>
+                <span>Testimonios</span>
                 <span className="absolute bottom-[8px] left-0 w-full h-0.5 bg-foreground transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
               </a>
             </nav>
             <Button asChild style={{ backgroundColor: '#131b26' }} className="font-semibold text-white hover:bg-gray-800 rounded-full transition-transform hover:scale-105 duration-200">
-                <a href="#quote">Get a Quote</a>
+                <a href="#quote">Cotizar</a>
             </Button>
         </div>
 
@@ -65,12 +78,12 @@ export function Header() {
                       <Logo />
                     </div>
                     <nav className="flex flex-col gap-y-6 text-lg font-semibold">
-                        <a href="#services" className="text-foreground border-b-2 border-transparent hover:border-foreground transition-all duration-300 w-fit">Services</a>
-                        <a href="#gallery" className="text-foreground border-b-2 border-transparent hover:border-foreground transition-all duration-300 w-fit">Gallery</a>
-                        <a href="#testimonials" className="text-foreground border-b-2 border-transparent hover:border-foreground transition-all duration-300 w-fit">Testimonials</a>
+                        <a href="#services" className="text-foreground border-b-2 border-transparent hover:border-foreground transition-all duration-300 w-fit">Servicios</a>
+                        <a href="#gallery" className="text-foreground border-b-2 border-transparent hover:border-foreground transition-all duration-300 w-fit">Galería</a>
+                        <a href="#testimonials" className="text-foreground border-b-2 border-transparent hover:border-foreground transition-all duration-300 w-fit">Testimonios</a>
                     </nav>
                     <Button asChild style={{ backgroundColor: '#131b26' }} className="mt-8 w-full font-semibold text-white hover:bg-gray-800 rounded-full transition-transform hover:scale-105 duration-200">
-                        <a href="#quote">Get a Quote</a>
+                        <a href="#quote">Cotizar</a>
                     </Button>
                 </SheetContent>
             </Sheet>

@@ -1,3 +1,4 @@
+
 "use client";
 
 import {
@@ -38,7 +39,7 @@ export function Testimonials() {
         align: "start",
         loop: true,
       }}
-      className="w-full max-w-4xl mx-auto"
+      className="w-full max-w-sm md:max-w-4xl mx-auto"
     >
       <CarouselContent>
         {testimonials.map((testimonial, index) => (
@@ -51,7 +52,7 @@ export function Testimonials() {
                   </p>
                   <div className="flex items-center space-x-4">
                     <Avatar>
-                      <AvatarImage src={testimonial.avatar} alt={testimonial.name} data-ai-hint={testimonial.hint} />
+                      <AvatarImage src={testimonial.avatar} alt={`Avatar de ${testimonial.name}`} data-ai-hint={testimonial.hint} />
                       <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                     </Avatar>
                     <span className="font-semibold font-headline" style={{ color: '#131b26' }}>{testimonial.name}</span>
@@ -62,8 +63,8 @@ export function Testimonials() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="-left-12" />
-      <CarouselNext className="-right-12" />
+      <CarouselPrevious className="hidden md:flex -left-12" />
+      <CarouselNext className="hidden md:flex -right-12" />
     </Carousel>
   );
 }
