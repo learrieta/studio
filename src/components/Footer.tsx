@@ -15,9 +15,6 @@ export function Footer() {
                 height={60}
               />
             </a>
-            <p className="mt-2 text-muted-foreground">
-              Your trusted partner in home remodeling and renovation.
-            </p>
           </div>
           <div>
             <h3 className="font-headline text-lg font-semibold text-foreground">Contact Us</h3>
