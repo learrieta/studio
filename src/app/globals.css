@@ -25,9 +25,9 @@ body {
     --accent-foreground: 25 85% 95%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 43 89% 38%;
+    --border: hsl(var(--foreground));
+    --input: hsl(var(--foreground));
+    --ring: hsl(var(--foreground));
     --radius: 0.5rem;
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
@@ -53,9 +53,9 @@ body {
     --accent-foreground: 25 10% 10%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 25 10% 20%;
-    --input: 25 10% 20%;
-    --ring: 43 89% 38%;
+    --border: hsl(var(--foreground));
+    --input: hsl(var(--foreground));
+    --ring: hsl(var(--foreground));
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
