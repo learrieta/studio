@@ -88,7 +88,7 @@ export default function Home() {
               <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white" style={{ backgroundColor: 'hsl(var(--foreground))' }}>
                 <CardHeader>
                   <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110" style={{ backgroundColor: 'hsla(var(--foreground-rgb), 0.2)' }}>
-                    <UtensilsCrossed className="w-10 h-10 text-foreground" />
+                    <UtensilsCrossed className="w-10 h-10 text-white" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Kitchen Remodeling</CardTitle>
                 </CardHeader>
@@ -101,7 +101,7 @@ export default function Home() {
               <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white" style={{ backgroundColor: 'hsl(var(--foreground))' }}>
                 <CardHeader>
                    <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110" style={{ backgroundColor: 'hsla(var(--foreground-rgb), 0.2)' }}>
-                    <Bath className="w-10 h-10 text-foreground" />
+                    <Bath className="w-10 h-10 text-white" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Bathroom Remodeling</CardTitle>
                 </CardHeader>
@@ -114,7 +114,7 @@ export default function Home() {
               <Card className="text-center group transition-transform duration-300 hover:scale-105 text-white" style={{ backgroundColor: 'hsl(var(--foreground))' }}>
                 <CardHeader>
                    <div className="mx-auto rounded-full p-4 w-20 h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110" style={{ backgroundColor: 'hsla(var(--foreground-rgb), 0.2)' }}>
-                    <HomeIcon className="w-10 h-10 text-foreground" />
+                    <HomeIcon className="w-10 h-10 text-white" />
                   </div>
                   <CardTitle className="font-headline text-2xl mt-4">Whole House</CardTitle>
                 </CardHeader>
