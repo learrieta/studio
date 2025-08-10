@@ -145,11 +145,15 @@ export default function Home() {
         </section>
 
         {/* Testimonials */}
-        <section id="testimonials" className="py-16 md:py-28 bg-secondary/50">
+        <section id="testimonials" className="py-16 md:py-28" style={{ backgroundColor: '#131b26' }}>
           <div className="container mx-auto px-6">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-5xl font-headline font-bold text-primary">What Our Clients Say</h2>
-              <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-muted-foreground">
+            <div className="text-left mb-12">
+               <div className="flex items-center gap-4 mb-2">
+                <div className="w-12 h-0.5 bg-white"></div>
+                <p className="text-sm font-semibold uppercase text-white/80 tracking-widest">Our Customers</p>
+              </div>
+              <h2 className="font-headline font-bold text-white" style={{ fontSize: '2rem' }}>Here Is What Our Satisfied Clients Say</h2>
+              <p className="mt-4 max-w-2xl text-base md:text-lg text-white/80">
                 We're proud of the relationships we build and the homes we transform.
               </p>
             </div>
