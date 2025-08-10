@@ -21,8 +21,8 @@ export function Header() {
         <Logo />
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-6">
-            <nav className="flex items-center gap-6 text-sm font-semibold">
+        <div className="hidden md:flex items-center gap-8">
+            <nav className="flex items-center gap-8 text-base font-semibold">
              <a
                 href="#services"
                 className="text-foreground relative group py-3"
