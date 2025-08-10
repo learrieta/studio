@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -158,7 +159,7 @@ export function QuoteForm() {
             )}
           />
 
-        <Button type="submit" style={{ backgroundColor: '#131b26' }} className="w-full text-primary-foreground font-bold transition-transform hover:scale-105 duration-200" size="lg">
+        <Button type="submit" className="w-full bg-foreground text-background font-bold transition-transform hover:scale-105 duration-200" size="lg">
           Enviar Solicitud
         </Button>
       </form>
