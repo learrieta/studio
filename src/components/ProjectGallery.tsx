@@ -51,7 +51,7 @@ export function ProjectGallery() {
         {projects.map((project, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <Card className="overflow-hidden group">
+              <Card className="overflow-hidden group" style={{ backgroundColor: '#131b26' }}>
                 <CardContent className="p-0">
                   <div className="aspect-video relative overflow-hidden">
                     <Image
@@ -62,8 +62,8 @@ export function ProjectGallery() {
                       data-ai-hint={project.hint}
                     />
                   </div>
-                  <div className="p-4 bg-background">
-                    <h3 className="font-headline text-lg font-semibold text-foreground">{project.title}</h3>
+                  <div className="p-4" style={{ backgroundColor: '#131b26' }}>
+                    <h3 className="font-headline text-lg font-semibold text-white">{project.title}</h3>
                   </div>
                 </CardContent>
               </Card>
