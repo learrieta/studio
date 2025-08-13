@@ -10,6 +10,9 @@ import { Testimonials } from '@/components/Testimonials';
 import { QuoteForm } from '@/components/QuoteForm';
 
 export default function Home() {
+  
+
+
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
       <Header />
@@ -49,7 +52,7 @@ export default function Home() {
               <div className="relative h-96 md:h-auto md:aspect-[4/3]">
                 <div className="absolute top-0 left-0 w-3/4 h-3/4 rounded-lg overflow-hidden shadow-lg">
                     <Image
-                      src="https://placehold.co/600x450.png"
+                      src="/pic1.jpg"
                       alt="Equipo de remodeladores profesionales planificando un proyecto de renovación."
                       layout="fill"
                       objectFit="cover"
@@ -58,7 +61,7 @@ export default function Home() {
                 </div>
                 <div className="absolute bottom-0 right-0 w-3/4 h-3/4 rounded-lg overflow-hidden shadow-lg">
                     <Image
-                      src="https://placehold.co/450x600.png"
+                      src="/pic2.jpg"
                       alt="Primer plano de materiales de construcción de alta calidad como madera y baldosas."
                       layout="fill"
                       objectFit="cover"

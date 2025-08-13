@@ -13,34 +13,34 @@ import { Card, CardContent } from "./ui/card";
 
 const projects = [
   {
-    title: "Modern Kitchen Overhaul",
+    title: "Renovación de Cocina Moderna",
     image: "https://placehold.co/600x400.png",
     hint: "remodeled kitchen",
-    description: "A stunning transformation with sleek cabinets, quartz countertops, and state-of-the-art appliances.",
+    description: "Una transformación impresionante con gabinetes elegantes, encimeras de cuarzo y electrodomésticos de última generación.",
   },
   {
-    title: "Spa-like Bathroom Retreat",
+    title: "Refugio de Baño Tipo Spa",
     image: "https://placehold.co/600x400.png",
     hint: "modern bathroom",
-    description: "From a cramped space to a serene oasis, featuring a walk-in shower and elegant tiling.",
+    description: "De un espacio reducido a un oasis de serenidad, con una ducha a ras de suelo y azulejos elegantes.",
   },
   {
-    title: "Open Concept Living Area",
+    title: "Área de Estar de Concepto Abierto",
     image: "https://placehold.co/600x400.png",
     hint: "living room interior",
-    description: "We removed walls to create a bright, airy space perfect for entertaining and family gatherings.",
+    description: "Eliminamos paredes para crear un espacio luminoso y aireado, perfecto para el entretenimiento y reuniones familiares.",
   },
   {
-    title: "Elegant Exterior Facelift",
+    title: "Elegante Remodelación Exterior",
     image: "https://placehold.co/600x400.png",
     hint: "house exterior",
-    description: "A complete exterior renovation with new siding, windows, and a welcoming front porch.",
+    description: "Una renovación exterior completa con nuevo revestimiento, ventanas y un acogedor porche delantero.",
   },
   {
-    title: "Luxurious Master Suite",
+    title: "Lujosa Suite Principal",
     image: "https://placehold.co/600x400.png",
     hint: "bedroom interior",
-    description: "This master bedroom was redesigned to include a spacious walk-in closet and a cozy sitting area.",
+    description: "Este dormitorio principal fue rediseñado para incluir un espacioso vestidor y una acogedora zona de estar.",
   },
 ];
 
