@@ -14,31 +14,31 @@ import { Card, CardContent } from "./ui/card";
 const projects = [
   {
     title: "Renovación de Cocina Moderna",
-    image: "https://placehold.co/600x400.png",
+    image: "/pic4.jpeg",
     hint: "remodeled kitchen",
     description: "Una transformación impresionante con gabinetes elegantes, encimeras de cuarzo y electrodomésticos de última generación.",
   },
   {
     title: "Refugio de Baño Tipo Spa",
-    image: "https://placehold.co/600x400.png",
+    image: "/bathroom.jpeg",
     hint: "modern bathroom",
     description: "De un espacio reducido a un oasis de serenidad, con una ducha a ras de suelo y azulejos elegantes.",
   },
   {
     title: "Área de Estar de Concepto Abierto",
-    image: "https://placehold.co/600x400.png",
+    image: "/pic5.jpeg",
     hint: "living room interior",
     description: "Eliminamos paredes para crear un espacio luminoso y aireado, perfecto para el entretenimiento y reuniones familiares.",
   },
   {
     title: "Elegante Remodelación Exterior",
-    image: "https://placehold.co/600x400.png",
+    image: "/outdoor.jpeg",
     hint: "house exterior",
     description: "Una renovación exterior completa con nuevo revestimiento, ventanas y un acogedor porche delantero.",
   },
   {
     title: "Lujosa Suite Principal",
-    image: "https://placehold.co/600x400.png",
+    image: "/pic7.jpeg",
     hint: "bedroom interior",
     description: "Este dormitorio principal fue rediseñado para incluir un espacioso vestidor y una acogedora zona de estar.",
   },
@@ -78,8 +78,8 @@ export function ProjectGallery() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="ml-4 md:ml-14" />
-      <CarouselNext className="mr-4 md:mr-14" />
+      <CarouselPrevious className="left-4 md:-left-12" />
+      <CarouselNext className="right-4 md:-right-12" />
     </Carousel>
   );
 }
