@@ -63,8 +63,8 @@ export function Testimonials() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="hidden md:flex -left-12" />
-      <CarouselNext className="hidden md:flex -right-12" />
+      <CarouselPrevious />
+      <CarouselNext />
     </Carousel>
   );
 }

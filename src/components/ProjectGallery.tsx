@@ -78,8 +78,8 @@ export function ProjectGallery() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="left-4 md:-left-12" />
-      <CarouselNext className="right-4 md:-right-12" />
+      <CarouselPrevious />
+      <CarouselNext />
     </Carousel>
   );
 }
